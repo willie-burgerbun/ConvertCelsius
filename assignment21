@@ -1,1 +1,26 @@
+/ Create program to convert celsius to fahrenheit.
+
+// Import scanner for user entry items.
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    // Create scanner object for reading user entry.
+    Scanner scanner = new Scanner(System.in);
+
+    // Prompt user to enter temperature in Celsius
+    //use double allowing for decimal point.
+    System.out.print("Enter a degree in Celsius: ");
+   double celsius = scanner.nextDouble();
+
+    // Convert Celsius to Fahrenheit.
+    double fahrenheit = (celsius * 9/5) + 32.0;
+
+    // Display the converted termperature
+    System.out.println( celsius + " degrees Celsius is: " + fahrenheit +" degrees in Fahrenheit");
+    
+    // Close
+    scanner.close();
+  }
+}
 
