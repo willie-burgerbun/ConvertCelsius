@@ -1,4 +1,4 @@
-/ Create program to convert celsius to fahrenheit.
+// Create program to convert celsius to fahrenheit.
 
 // Import scanner for user entry items.
 import java.util.Scanner;
